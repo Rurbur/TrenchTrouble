@@ -1,0 +1,71 @@
+# Unreal Engine specific ignores
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+# Ignore temporary files
+*.tmp
+*.log
+# Ignore project-specific settings
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.qmlproject.user
+*.qmlproject.user.*
+*.cproject
+*.project
+*.csettings
+*.launch
+*.settings
+*.sublime-project
+*.sublime-workspace
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+# Ignore Unreal Engine auto-generated files
+*.log
+*.temp
+*.tmp
+*.bak
+*.backup
+*.cache
+*.swp
+*.lock
+*.db
+*.db-journal
+*.dmp
+# Ignore Unreal Engine plugin binaries
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+# Ignore Rider specific files
+.idea/
+.idea_modules/
+.idea_modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries/
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/runConfigurations/
+.idea/vcs.xml
+.idea/assetWizard.xml
+.idea/codeStyles/
+.idea/inspectionProfiles/
+.idea/scopes/
+.idea/sonarlint/
+.idea/tasks/
+.idea/usage.statistics.xml
+.idea/markdown-navigator.xml
+.idea/.rider/
+.idea/.idea/
+# Ignore macOS specific files
+.DS_Store
+# Ignore Windows specific files
+Thumbs.db
+Desktop.ini
+# Ignore Blender backup files suffixed with a number
+*.blend[0-9]*
